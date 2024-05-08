@@ -1,0 +1,136 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+img{
+   max-width: 100%;
+}
+html{
+   overflow-x: hidden;
+}
+.title{
+   margin: 20px;
+   font-size: 33px;
+   font-family:Courier ;
+}
+.text{
+   font-family: cursive;
+}
+.btn{
+   margin-top: 20px;
+   background-color: aquamarine;
+   color: black;
+   font-size: 20px;
+   font-weight: bold;
+   padding: 10px 20px;
+   text-transform: capitalize;
+   transition: 0.4s linear;
+}
+.box{
+   margin-top: 20px;
+   border-top: 3px solid black;
+   border-bottom: 3px solid black;
+   padding-bottom:10px ;
+   
+}
+.link{
+    margin-top: 20px;
+    background-color: salmon;
+    color: lightgreen;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    transition: 0.4s linear;
+}
+.link:hover{
+   transform: scale(1.3);
+   box-shadow: 0 0 10px 5px;
+   color: black;
+}
+.wrapper{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin-top: 50px;
+}
+.wrap{
+   width: 30%;
+   border: 5px solid yellowgreen;
+   padding:15px;
+   transition: 0.8s;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.wrap:hover{
+   transform: rotate(360deg);
+   background-color: goldenrod;
+}
+.wrap-title{
+   transition: 0.5s;
+   text-align: center;
+   font-family: fantasy;
+}
+.wrap-title:hover{
+   transform: scale(1.4);
+    background-color: black;
+   box-shadow: 0 0 5px 3px black;
+   color: white;
+}
+.wrap-text{
+   text-align: center;
+   transition: 0.5s;
+}
+.wrap-text:hover{
+   background-color: black;
+   color:wheat;
+   transform: scale(1.1);
+   box-shadow: 0 0 3px 2px;
+}
+.box22{
+   width: 100%;
+   height: 30vh;
+   background-image: url('https://picsum.photos/1500/500');
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+
+}
+.box55{
+   margin-left: 5%;
+   background-color:red;
+   width: 10%;
+   height: 3vh;
+   transition: 0.8s linear;
+   
+}
+.box55:hover{
+   background-color: aquamarine;
+   box-shadow: 0 0 10px 6px red;
+}
+.as{
+   background-color: aquamarine;
+   border: 10% solid black;
+   margin: 5%;
+   width: 10%;
+   height: 5vh;
+   transition: 0.5s linear;
+}
+.as:hover{
+   background-color: white;
+   box-shadow: 0 0 10px 5px;
+   
+}
+.az{
+   width: 10%;
+   height: 3vh;
+   background-color: pink;
+   color: black;
+}
+
+
+
